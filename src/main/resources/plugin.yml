@@ -1,0 +1,5 @@
+name: InstaCraft
+version: '1.0'
+main: org.sandbytes.instaCraft.InstaCraft
+api-version: '1.21'
+authors: [Marcify]
