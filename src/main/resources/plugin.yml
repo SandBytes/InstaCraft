@@ -1,5 +1,19 @@
 name: InstaCraft
-version: '1.0'
+version: ${project.version}
 main: org.sandbytes.instaCraft.InstaCraft
-api-version: '1.21'
-authors: [Marcify]
+api-version: '1.13'
+author: Marcify
+
+commands:
+  craft:
+    description: "Craft items instantly"
+    usage: "/craft <item>"
+    permission: instacraft.use
+
+permissions:
+  instacraft.use:
+    description: "Allows the player to use the InstaCraft command"
+    default: op
+  instacraft.reload:
+    description: 'Allows the player to reload the config.yml'
+    default: op
