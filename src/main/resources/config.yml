@@ -1,0 +1,18 @@
+# --------------------------------------------------------------
+#                    InstaCraft Configuration
+#                         by SandBytes
+# --------------------------------------------------------------
+# Found a bug? Submit an issue in https://github.com/SandBytes/InstaCraft/issues
+# and I will be glad to fix it as soon as possible. Thank you!
+# --------------------------------------------------------------
+
+# Messages displayed to players
+messages:
+  usage: "&cUsage: %command%"
+  invalid_item: "&cInvalid item: %item%"
+  cannot_craft: "&c%item% cannot be crafted"
+  missing_materials: "&cYou don't have the required materials to craft a %item%"
+  crafted_success: "&aYou crafted a %item%"
+  reload_success: "&aConfig.yml has been reloaded"
+  no_permission: "&cYou don't have permission to use this command (%permission%)"
+  player_only: "&cThis command is only for players"
